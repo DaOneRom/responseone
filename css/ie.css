@@ -1,0 +1,83 @@
+/* IE11 */
+#main .list-row .text-content span {
+  display: block;
+}
+#main .tri-grids-cards .grid,
+::-ms-backdrop {
+  width: 33.3333333333%;
+}
+#main span.grid-desc,
+::-ms-backdrop {
+  display: block;
+}
+
+#main .nc-container .text-content span,
+::-ms-backdrop {
+  display: block;
+}
+#main a.grid-title,
+::-ms-backdrop {
+  display: block;
+}
+#main .cards-container .text-container a,
+::-ms-backdrop {
+  display: block;
+}
+#main .cards-container .text-container span,
+::-ms-backdrop {
+  display: block;
+}
+#main .cards-container .thumbs-container .text-content a,
+::-ms-backdrop {
+  display: block;
+}
+#main .list-card .text-content span,
+::-ms-backdrop {
+  display: block;
+}
+
+/* IE10 */
+.ie10 #main .tri-grids-cards .grid {
+  width: 33.3333333333%;
+}
+.ie10 #main span.grid-desc {
+  display: block;
+}
+.ie10 #main .nc-container .text-content span {
+  display: block;
+}
+.ie10 #main a.grid-title {
+  display: block;
+}
+.ie10 #main .cards-container .text-container a {
+  display: block;
+}
+.ie10 #main .cards-container .text-container span {
+  display: block;
+}
+.ie10 #main .cards-container .thumbs-container .text-content a {
+  display: block;
+}
+.ie10 #main .list-card .text-content span {
+  display: block;
+}
+
+@media all and (max-width: 767px) {
+  #main .news-container {
+    flex-direction: column;
+    height: 750px;
+    display: flex;
+  }
+}
+@media all and (max-width: 480px) {
+  #main .tri-grids-cards {
+    display: block;
+  }
+  #main .tri-grids-cards .grid,
+  ::-ms-backdrop {
+    width: 100%;
+  }
+  .ie10 #main .tri-grids-cards .grid {
+    width: 100%;
+  }
+}

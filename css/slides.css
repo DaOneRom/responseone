@@ -1,0 +1,98 @@
+#slides,
+.slides,
+#slides2,
+#slides3 {
+  display: none;
+  width : 540px;
+  height: 360px;
+}
+
+.slidesjs-previous {
+    left: 0;
+}
+.slidesjs-previous:before {
+  content: "\e079";
+}
+.slidesjs-next {
+    right: 0;
+}
+.slidesjs-next:before {
+  content: "\e080";
+}
+.slidesjs-previous:before,
+.slidesjs-next:before {
+  font-family: "Glyphicons Halflings";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  font-size: 25px;
+  color: #fff;
+  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+}
+.slidesjs-navigation {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 50%;
+  z-index: 10;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+}
+
+.slidesjs-pagination {
+  position: absolute;
+  margin: 0;
+  float: right;
+  list-style: none;
+  bottom: 25px;
+  z-index: 10;
+  right: 20px;
+}
+
+.slidesjs-pagination li {
+  float: left;
+  margin: 0 1px;
+}
+
+.slidesjs-pagination li a {
+  display: block;
+  width: 10px;
+  height: 10px;
+  /* padding-top: 13px;
+  background-image: url(../img/pagination.png); */
+  /* background-position: 0 0; */
+  float: left;
+  overflow: hidden;
+  background: #fff;
+  /* border: 1px solid #fff; */
+  border-radius: 100%;
+  margin: 0 3px;
+  text-indent: -999px;
+}
+
+.slidesjs-pagination li a.active,
+.slidesjs-pagination li a:hover.active {
+  /* background-position: 0 -13px; */
+  background-color:  #ee2e3d;
+}
+
+.slidesjs-pagination li a:hover {
+  /* background-position: 0 -26px; */
+}
+
+/* a:link,
+a:visited {
+  color: #333
+}
+
+a:hover,
+a:active {
+  color: #9e2020
+}
+
+.navbar {
+  overflow: hidden
+} */
